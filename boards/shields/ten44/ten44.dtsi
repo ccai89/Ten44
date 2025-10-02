@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "ten44-layouts.dtsi"
 
 &xiao_serial { status = "disabled"; };
 
