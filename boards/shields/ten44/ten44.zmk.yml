@@ -1,0 +1,15 @@
+file_format: "1"
+id: ten44
+name: Ten44
+type: shield
+url: https://github.com/ccai89/ten44
+requires: [seeeduino_xiao_ble]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+  - studio
+siblings:
+  - ten44_left
+  - ten44_right

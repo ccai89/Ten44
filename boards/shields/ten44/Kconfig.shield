@@ -1,0 +1,5 @@
+config SHIELD_TEN44_LEFT
+    def_bool $(shields_list_contains,ten44_left)
+
+config SHIELD_TEN44_RIGHT
+    def_bool $(shields_list_contains,ten44_right)

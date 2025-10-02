@@ -1,0 +1,7 @@
+/ {
+    layouts_ten44_position_map: layouts_ten44_position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        complete;
+    };
+};
