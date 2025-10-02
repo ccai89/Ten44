@@ -4,7 +4,6 @@
 
 / {
     chosen {
-        zephyr,display = &oled;
         zmk,kscan = &kscan0;
     };
 
