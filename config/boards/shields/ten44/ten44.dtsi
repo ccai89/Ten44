@@ -2,15 +2,10 @@
 
 &xiao_serial { status = "disabled"; };
 
-&ten44_full_layout {
-    transform = <&ten44_transform>;
-};
-
 / {
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &ten44_full_layout;
     };
 
     ten44_transform: keymap_transform_0 {
