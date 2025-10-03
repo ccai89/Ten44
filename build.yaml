@@ -11,3 +11,5 @@ include:
     shield: ten44_left
   - board: seeeduino_xiao_ble
     shield: ten44_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
