@@ -1,3 +1,28 @@
+Latest (7aa53)
+10 minutes ago
+
+    layers
+    conditional layers
+    combos
+    macros
+    behaviors
+
+    0default_layer
+    1lower_layer
+    2raise_layer
+    3adjust_layer
+    Add Layer
+
+lower_layer
+SYM
+Need help? Open an issue:
+/nickcoutsos/keymap-editor
+Raw Keymap
+
+This is a preview of your current keymap changes applied to the original .keymap file contents from your repository.
+
+Any changes shown here will not be committed to your repository until you click the Save button in the action bar.
+
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
