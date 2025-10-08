@@ -92,6 +92,10 @@ However, the keyboard must be **turned on while charging**, since the battery is
 ### Microcontroller Battery Terminals
 Ideally the exposed connact points should be sealed using either UV resin, small amounts of hot glue, or similar to prevent shorts.
 
+### Battery Terminals 
+These are 4mm nickel strips with the ends interfacing with the battery folded over on itself multiple times to give the battery a snug fit in the compartment.
+The battery is oriented with positive terminal facing toward the top of the keyboard and BMS must also be installed in the same manner.
+
 ---
 
 ## Summary
