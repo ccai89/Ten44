@@ -1,0 +1,11 @@
+file_format: "1"
+id: ten44
+name: Ten44
+type: shield
+url: https://github.com/ccai89/Ten44
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - ten44_left
+  - ten44_right
