@@ -9,6 +9,7 @@
     // New node to fix the "undefined node label 'key_physical_attrs'" error
     key_physical_attrs: key_physical_attrs {
         compatible = "zmk,key-physical-attrs";
+				#key-cells = <7>;
     };
 
     default_transform: default_transform {
