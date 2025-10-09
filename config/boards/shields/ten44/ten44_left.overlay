@@ -6,7 +6,7 @@
 
 #include "ten44.dtsi"
 
-&default_kscan {
+&kscan0 {
     col-gpios
         = <&xiao_d 3 GPIO_ACTIVE_HIGH>
         , <&xiao_d 4 GPIO_ACTIVE_HIGH>
