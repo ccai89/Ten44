@@ -1,8 +1,5 @@
 # Ten44 Keyboard
 
-The **Ten44 Keyboard** is named after the **10440 lithium-ion battery** it uses — a compact 10mm × 44mm cell holding about **300–400mAh** of capacity.  
-It also features **44 total keys**, staying true to its namesake in both form and function.
-
 ![Ten44 Keyboard](images/Ten44.jpg)
 ![Thickness](images/Thickness.jpg)
 ---
