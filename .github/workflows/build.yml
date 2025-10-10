@@ -1,5 +1,25 @@
-on: [push, pull_request, workflow_dispatch]
+name: Build ZMK firmware
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/**"
 
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      amend_commit: false
+      install_branch: "main"
+      keymap_patterns: "config/*.keymap"
+      json_path: "config"
+      config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
+      output_folder: "keymap-drawer"
+      destination: "both"
+      parse_args: ""
+      draw_args: ""
