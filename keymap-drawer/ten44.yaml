@@ -1,0 +1,182 @@
+layout: {zmk_keyboard: ten44}
+layers:
+  MAIN:
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - '['
+  - ']'
+  - ESC
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - {t: N, h: RIGHT ALT}
+  - {t: E, h: RCTRL}
+  - I
+  - O
+  - ;
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - BACKSPACE
+  - {t: LEFT GUI, h: ADJ}
+  - {t: DEL, h: NUM}
+  - {t: ENTER, h: LEFT GUI}
+  - {t: TAB, h: SYM}
+  - {t: BACKSPACE, h: SYM}
+  - {t: SPACE, h: RSHFT}
+  - {t: ENTER, h: NUM}
+  - {t: '''', h: ADJ}
+  SYM:
+  - Gui+Sft+LEFT
+  - '`'
+  - HOME
+  - UP
+  - PAGE UP
+  - '{'
+  - )
+  - KP 7
+  - KP 8
+  - KP 9
+  - +
+  - '*'
+  - Alt+Sft+DOWN
+  - _
+  - LEFT
+  - DOWN
+  - RIGHT
+  - (
+  - )
+  - KP 4
+  - KP 5
+  - KP 6
+  - '-'
+  - {t: /, h: RCTRL}
+  - Sft+Ctl+LEFT
+  - '|'
+  - END
+  - Sft+Ctl+Gui+UP
+  - PAGE DOWN
+  - '['
+  - ']'
+  - KP 1
+  - KP 2
+  - KP 3
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
+  - {t: ., h: RGUI}
+  NUM:
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - NEXT
+  - VOL UP
+  - F7
+  - F8
+  - F9
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ^
+  - '&'
+  - '*'
+  - _
+  - PLAY PAUSE
+  - MUTE
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - Ctl+UP
+  - Sft+Ctl+Gui+LEFT
+  - Sft+Ctl+Gui+RIGHT
+  - PREVIOUS
+  - VOL DN
+  - F1
+  - F2
+  - F3
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  ADJ:
+  - '&bootloader'
+  - '&studio_unlock'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&studio_unlock'
+  - '&bootloader'
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - BT CLR
+  - OUT TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT TOG
+  - {t: '&sys_reset', type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - '&sys_reset'
