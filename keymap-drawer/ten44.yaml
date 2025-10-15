@@ -81,7 +81,7 @@ layers:
   - KP 2
   - KP 3
   - '='
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -91,7 +91,7 @@ layers:
   - KP 0
   - {t: ., h: RGUI}
   NUM:
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - '!'
   - '@'
   - '#'
@@ -102,8 +102,8 @@ layers:
   - F8
   - F9
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - BT NXT
   - ^
   - '&'
   - '*'
@@ -115,7 +115,7 @@ layers:
   - F6
   - F11
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT PRV
   - '`'
   - Ctl+UP
   - Sft+Ctl+Gui+LEFT
@@ -172,14 +172,14 @@ layers:
   - ''
   - ''
   - OUT TOG
-  - {t: '&sys_reset', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - '&sys_reset'
+  - ''
 combos:
 - p: [28, 29]
   k: '&dev'
@@ -187,3 +187,11 @@ combos:
 - p: [16, 17]
   k: '&commit'
   l: [NUM]
+- p: [2, 3]
+  k: Gui+4
+  l: [NUM]
+- p: [14, 15]
+  k: Gui+5
+  l: [SYM]
+- p: [17, 18]
+  k: CAPS
