@@ -180,3 +180,10 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - '&sys_reset'
+combos:
+- p: [28, 29]
+  k: '&dev'
+  l: [NUM]
+- p: [16, 17]
+  k: '&commit'
+  l: [NUM]
