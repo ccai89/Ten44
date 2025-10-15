@@ -51,7 +51,7 @@
 
         screenshot2 {
             bindings = <&kp LG(NUMBER_5)>;
-            key-positions = <14 15>;
+            key-positions = <26 27>;
             layers = <1>;
         };
 
