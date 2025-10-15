@@ -4,6 +4,10 @@
     chosen {
         zmk,physical-layout = &default_layout;
         zmk,studio-rpc-uart = &uart1;
+
+    key_physical_attrs: key_physical_attrs {
+        compatible = "zmk,key-physical-attrs";
+				#key-cells = <7>;
     };
 
     default_transform: default_transform {
