@@ -14,16 +14,16 @@ layers:
   - '['
   - ']'
   - ESC
-  - A
-  - R
-  - S
-  - T
+  - {t: A, h: LEFT ALT}
+  - {t: R, h: LGUI}
+  - {t: S, h: LCTRL}
+  - {t: T, h: RIGHT SHIFT}
   - G
   - M
-  - {t: N, h: RIGHT ALT}
+  - {t: N, h: RSHIFT}
   - {t: E, h: RCTRL}
-  - I
-  - O
+  - {t: I, h: RIGHT GUI}
+  - {t: O, h: RIGHT ALT}
   - ;
   - LSHIFT
   - Z
