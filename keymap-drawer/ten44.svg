@@ -548,8 +548,8 @@ path.combo {
 <text x="0" y="24" class="key hold">RGUI</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
-<text x="168" y="88" class="combo tap">Gui+5</text>
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+5</text>
 </g>
 <g class="combo combopos-1">
 <path d="M420,98 l-93,0" class="combo"/>
