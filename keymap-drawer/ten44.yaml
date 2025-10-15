@@ -37,14 +37,14 @@ layers:
   - .
   - /
   - BACKSPACE
-  - {t: LEFT GUI, h: ADJ}
+  - {t: LEFT GUI, h: bt}
   - {t: DEL, h: NUM}
-  - {t: ENTER, h: LEFT GUI}
-  - {t: TAB, h: SYM}
-  - {t: BACKSPACE, h: SYM}
-  - {t: SPACE, h: RSHFT}
+  - {t: ENTER, h: SYM}
+  - TAB
+  - BACKSPACE
+  - {t: SPACE, h: SYM}
   - {t: ENTER, h: NUM}
-  - {t: '''', h: ADJ}
+  - {t: '''', h: bt}
   SYM:
   - Gui+Sft+LEFT
   - '`'
@@ -84,8 +84,8 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 0
@@ -126,7 +126,7 @@ layers:
   - F2
   - F3
   - F10
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ADJ:
+  bt:
   - '&bootloader'
   - '&studio_unlock'
   - ''
