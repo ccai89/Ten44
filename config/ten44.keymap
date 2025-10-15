@@ -100,10 +100,10 @@
             //                         ┗━━━━━━━━━━━┛           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛      ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛           ┗━━━━━━━━━━━┛    
 
             bindings = <
-&kp TAB     &kp Q           &kp W           &kp F        &kp P               &kp B          &kp J              &kp L            &kp U          &kp Y               &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp ESC     &mt LEFT_ALT A  &mt LGUI R      &mt LCTRL S  &mt RIGHT_SHIFT T   &kp G          &kp M              &mt RSHIFT N     &mt RCTRL E    &mt RIGHT_GUI I     &mt RIGHT_ALT O   &kp SEMICOLON
-&kp LSHIFT  &kp Z           &kp X           &kp C        &kp D               &kp V          &kp K              &kp H            &kp COMMA      &kp DOT             &kp FSLH          &kp BACKSPACE
-                            &lt 3 LEFT_GUI  &lt RSE DEL  &mt LEFT_GUI ENTER  &lt LWR TAB    &lt LWR BACKSPACE  &mt RSHFT SPACE  &lt RSE ENTER  &lt 3 SINGLE_QUOTE
+&kp TAB     &kp Q           &kp W           &kp F        &kp P              &kp B      &kp J          &kp L         &kp U          &kp Y               &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp ESC     &mt LEFT_ALT A  &mt LGUI R      &mt LCTRL S  &mt RIGHT_SHIFT T  &kp G      &kp M          &mt RSHIFT N  &mt RCTRL E    &mt RIGHT_GUI I     &mt RIGHT_ALT O   &kp SEMICOLON
+&kp LSHIFT  &kp Z           &kp X           &kp C        &kp D              &kp V      &kp K          &kp H         &kp COMMA      &kp DOT             &kp FSLH          &kp BACKSPACE
+                            &lt 3 LEFT_GUI  &lt RSE DEL  &lt 1 ENTER        &kp TAB    &kp BACKSPACE  &lt 1 SPACE   &lt RSE ENTER  &lt 3 SINGLE_QUOTE
             >;
         };
 
@@ -148,13 +148,13 @@
             bindings = <
 &bt BT_SEL 0  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp C_NEXT          &kp C_VOL_UP  &kp F7  &kp F8  &kp F9  &kp F12  &studio_unlock
 &bt BT_NXT    &kp CARET        &kp AMPERSAND  &kp ASTERISK          &kp UNDERSCORE         &kp K_PLAY_PAUSE    &kp C_MUTE    &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&bt BT_PRV    &kp GRAVE        &kp LC(UP)     &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &kp K_PREVIOUS      &kp C_VOL_DN  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&bt BT_PRV    &kp GRAVE        &kp LC(UP)     &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &kp K_PREVIOUS      &kp C_VOL_DN  &kp F1  &kp F2  &kp F3  &kp F10  &bt BT_CLR_ALL
                                &trans         &trans                &trans                 &trans              &trans        &trans  &trans  &trans
             >;
         };
 
-        adjust_layer {
-            display-name = "ADJ";
+        bluetooth {
+            display-name = "bt";
 
             // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓━━━━━━━━━━━┓                              ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
             // ┃Bootloader ┃StdoUnlock ┃           ┃           ┃           ┃           ┃                              ┃           ┃           ┃           ┃           ┃StdoUnlock ┃ Bootloader┃
