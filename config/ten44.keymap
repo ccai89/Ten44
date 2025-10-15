@@ -42,6 +42,23 @@
             key-positions = <16 17>;
             layers = <2>;
         };
+
+        screenshot1 {
+            bindings = <&kp LG(NUMBER_4)>;
+            key-positions = <2 3>;
+            layers = <2>;
+        };
+
+        screenshot2 {
+            bindings = <&kp LG(NUMBER_5)>;
+            key-positions = <14 15>;
+            layers = <1>;
+        };
+
+        cap {
+            bindings = <&kp CAPS>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
@@ -108,7 +125,7 @@
             bindings = <
 &kp LG(LS(LEFT))  &kp GRAVE       &kp HOME  &kp UP              &kp PAGE_UP    &kp LEFT_BRACE          &kp RIGHT_PARENTHESIS  &kp KP_N7        &kp KP_N8        &kp KP_NUMBER_9  &kp PLUS   &kp ASTERISK
 &kp LA(LS(DOWN))  &kp UNDERSCORE  &kp LEFT  &kp DOWN            &kp RIGHT      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &mt RCTRL FSLH
-&kp LS(LC(LEFT))  &kp PIPE        &kp END   &kp LS(LC(LG(UP)))  &kp PAGE_DOWN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &trans
+&kp LS(LC(LEFT))  &kp PIPE        &kp END   &kp LS(LC(LG(UP)))  &kp PAGE_DOWN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &kp ENTER
                                   &trans    &trans              &trans         &trans                  &trans                 &trans           &kp KP_NUMBER_0  &mt RGUI PERIOD
             >;
         };
@@ -129,10 +146,10 @@
             //                         ┗━━━━━━━━━━━┛           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛      ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛           ┗━━━━━━━━━━━┛    
 
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp C_NEXT          &kp C_VOL_UP  &kp F7  &kp F8  &kp F9  &kp F12  &trans
-&trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK          &kp UNDERSCORE         &kp K_PLAY_PAUSE    &kp C_MUTE    &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&trans  &kp GRAVE        &kp LC(UP)     &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &kp K_PREVIOUS      &kp C_VOL_DN  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                         &trans         &trans                &trans                 &trans              &trans        &trans  &trans  &trans
+&bt BT_SEL 0  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp C_NEXT          &kp C_VOL_UP  &kp F7  &kp F8  &kp F9  &kp F12  &studio_unlock
+&bt BT_NXT    &kp CARET        &kp AMPERSAND  &kp ASTERISK          &kp UNDERSCORE         &kp K_PLAY_PAUSE    &kp C_MUTE    &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&bt BT_PRV    &kp GRAVE        &kp LC(UP)     &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &kp K_PREVIOUS      &kp C_VOL_DN  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                               &trans         &trans                &trans                 &trans              &trans        &trans  &trans  &trans
             >;
         };
 
@@ -153,7 +170,7 @@
 &bootloader   &studio_unlock  &none         &none         &none         &none           &none         &none         &none         &none         &studio_unlock  &bootloader
 &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
 &out OUT_TOG  &none           &none         &none         &none         &none           &none         &none         &none         &none         &none           &out OUT_TOG
-                              &sys_reset    &trans        &none         &trans          &trans        &none         &trans        &sys_reset
+                              &none         &trans        &none         &trans          &trans        &none         &trans        &none
             >;
         };
 
