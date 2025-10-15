@@ -100,10 +100,10 @@
             //                         ┗━━━━━━━━━━━┛           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛      ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛           ┗━━━━━━━━━━━┛    
 
             bindings = <
-&kp TAB     &kp Q  &kp W           &kp F        &kp P               &kp B          &kp J              &kp L            &kp U          &kp Y               &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp ESC     &kp A  &kp R           &kp S        &kp T               &kp G          &kp M              &mt RIGHT_ALT N  &mt RCTRL E    &kp I               &kp O             &kp SEMICOLON
-&kp LSHIFT  &kp Z  &kp X           &kp C        &kp D               &kp V          &kp K              &kp H            &kp COMMA      &kp DOT             &kp FSLH          &kp BACKSPACE
-                   &lt 3 LEFT_GUI  &lt RSE DEL  &mt LEFT_GUI ENTER  &lt LWR TAB    &lt LWR BACKSPACE  &mt RSHFT SPACE  &lt RSE ENTER  &lt 3 SINGLE_QUOTE
+&kp TAB     &kp Q           &kp W           &kp F        &kp P               &kp B          &kp J              &kp L            &kp U          &kp Y               &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp ESC     &mt LEFT_ALT A  &mt LGUI R      &mt LCTRL S  &mt RIGHT_SHIFT T   &kp G          &kp M              &mt RSHIFT N     &mt RCTRL E    &mt RIGHT_GUI I     &mt RIGHT_ALT O   &kp SEMICOLON
+&kp LSHIFT  &kp Z           &kp X           &kp C        &kp D               &kp V          &kp K              &kp H            &kp COMMA      &kp DOT             &kp FSLH          &kp BACKSPACE
+                            &lt 3 LEFT_GUI  &lt RSE DEL  &mt LEFT_GUI ENTER  &lt LWR TAB    &lt LWR BACKSPACE  &mt RSHFT SPACE  &lt RSE ENTER  &lt 3 SINGLE_QUOTE
             >;
         };
 
