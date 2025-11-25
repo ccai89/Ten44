@@ -10,7 +10,7 @@ layers:
   - L
   - U
   - Y
-  - '['
+  - ''''
   - A
   - R
   - S
@@ -21,7 +21,7 @@ layers:
   - {t: E, h: RCTRL}
   - I
   - O
-  - Z
+  - {t: Z, h: ADJ}
   - X
   - C
   - D
@@ -30,10 +30,10 @@ layers:
   - H
   - ','
   - .
-  - /
-  - {t: DEL, h: NUM}
-  - {t: ENTER, h: LEFT GUI}
-  - {t: TAB, h: SYM}
+  - {t: /, h: ADJ}
+  - {t: ESCAPE, h: NUM}
+  - {t: ENTER, h: SYM}
+  - {t: TAB, h: LEFT GUI}
   - {t: BACKSPACE, h: SYM}
   - {t: SPACE, h: RSHFT}
   - {t: ENTER, h: NUM}
@@ -69,8 +69,8 @@ layers:
   - KP 3
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 0
@@ -132,19 +132,19 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
   - ''
-  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
