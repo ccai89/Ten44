@@ -1,6 +1,6 @@
-# Ten44 Keyboard
+# Dactyl Corne Keyboard
 
-![Ten44 Keyboard](images/Ten44.jpg)
+![Dactyl Corne Keyboard](images/Dactyl Corne.jpg)
 ![Thickness](images/Thickness.jpg)
 ---
 

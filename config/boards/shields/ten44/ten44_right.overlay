@@ -4,19 +4,18 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "ten44.dtsi"
+#include "dactyl_corne.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <5>;
 };
 
 &kscan0 {
     col-gpios
-        = <&xiao_d 3 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 4 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 5 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 6 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 7 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 8 GPIO_ACTIVE_HIGH>
+        = <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
 };

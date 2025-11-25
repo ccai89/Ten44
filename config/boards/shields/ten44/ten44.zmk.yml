@@ -1,12 +1,12 @@
 file_format: "1"
-id: ten44
-name: Ten44
+id: dactyl_corne
+name: Dactyl Corne
 type: shield
-url: https://github.com/ccai89/Ten44
+url: https://github.com/ccai89/Dactyl Corne
 requires: [seeeduino_xiao_ble]
 features:
   - keys
   - studio
 siblings:
-  - ten44_left
-  - ten44_right
+  - dactyl_corne_left
+  - dactyl_corne_right

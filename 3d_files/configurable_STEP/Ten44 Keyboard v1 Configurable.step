@@ -5,11 +5,11 @@ HEADER;
  */
 
 FILE_DESCRIPTION(
-/* description */ ('Ten44 Model'),
+/* description */ ('Dactyl Corne Model'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'Ten44 Keyboard v1 Configurable.step',
+/* name */ 'Dactyl Corne Keyboard v1 Configurable.step',
 /* time_stamp */ '2025-10-08T09:34:18-04:00',
 /* author */ (''),
 /* organization */ (''),
@@ -96860,7 +96860,7 @@ SOLID_ANGLE_UNIT()
 #93782=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #93783=PRODUCT_CONTEXT('part definition',#93782,'mechanical');
-#93784=PRODUCT('Ten44',(#93783));
+#93784=PRODUCT('Dactyl Corne',(#93783));
 #93785=PRODUCT('XIAO-nRF52840','xiao nrf52 v1',$,(#93783));
 #93786=PRODUCT('USB TYPE C PORT','USB TYPE C PORT',$,(#93783));
 #93787=PRODUCT('USB TYPE C PORT (1)','USB TYPE C PORT (1)',$,(#93783));
