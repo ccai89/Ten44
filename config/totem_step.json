@@ -1,6 +1,6 @@
 {
-  "id": "dactyl_corne",
-  "name": "dactyl corne",
+  "id": "totem_step",
+  "name": "totem step",
   "layouts": {
     "default_transform": {
       "name": "default_transform",
@@ -127,6 +127,12 @@
         },
         {
           "row": 2,
+          "col": 0,
+          "x": 1,
+          "y": 2.775
+        },
+        {
+          "row": 2,
           "col": 1,
           "x": 1,
           "y": 2.775
@@ -182,6 +188,12 @@
         {
           "row": 2,
           "col": 11,
+          "x": 13,
+          "y": 2.775
+        },
+        {
+          "row": 2,
+          "col": 12,
           "x": 13,
           "y": 2.775
         },

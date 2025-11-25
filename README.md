@@ -1,6 +1,6 @@
-# Dactyl Corne Keyboard
+# Totem Step Keyboard
 
-![Dactyl Corne Keyboard](images/Dactyl Corne.jpg)
+![Totem Step Keyboard](images/Totem Step.jpg)
 ![Thickness](images/Thickness.jpg)
 ---
 

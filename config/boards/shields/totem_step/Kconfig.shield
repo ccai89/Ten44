@@ -1,0 +1,5 @@
+config SHIELD_TOTEM_STEP_LEFT
+    def_bool $(shields_list_contains,totem_step_left)
+
+config SHIELD_TOTEM_STEP_RIGHT
+    def_bool $(shields_list_contains,totem_step_right)

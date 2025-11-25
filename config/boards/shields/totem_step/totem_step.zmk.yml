@@ -8,5 +8,5 @@ features:
   - keys
   - studio
 siblings:
-  - dactyl_corne_left
-  - dactyl_corne_right
+  - totem_step_left
+  - totem_step_right

@@ -1,14 +1,14 @@
-if SHIELD_DACTYL_CORNE_LEFT
+if SHIELD_TOTEM_STEP_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Dactyl Corne"
+    default "Totem Step"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_DACTYL_CORNE_LEFT || SHIELD_DACTYL_CORNE_RIGHT
+if SHIELD_TOTEM_STEP_LEFT || SHIELD_TOTEM_STEP_RIGHT
 
 config ZMK_SPLIT
     default y
