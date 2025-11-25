@@ -15,32 +15,3 @@
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
         ;
 };
-
-&pro_micro_i2c {
-    status = "okay";
-    tps43: iqs5xx@74 {
-        status = "okay";
-        compatible = "azoteq,iqs5xx";
-        reg = <0x74>;
-
-        reset-gpios = <&pro_micro 7 GPIO_ACTIVE_LOW>;
-        rdy-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>;
-
-        one-finger-tap;
-        press-and-hold;
-        press-and-hold-time = <250>;
-        two-finger-tap;
-
-        scroll;
-        natural-scroll-x;
-
-        bottom-beta = <15>;
-        stationary-threshold = <5>;
-
-        switch-xy;
-    };
-};
-
-&tps43_split {
-    device = <&tps43>;
-};
