@@ -7,6 +7,7 @@ requires: [pro-micro]
 features:
   - keys
   - studio
+  - pointer
 siblings:
   - totem_step_left
   - totem_step_right
