@@ -6,7 +6,6 @@ url: https://github.com/ccai89/Ten44
 requires: [pro-micro]
 features:
   - keys
-  - studio
   - pointer
 siblings:
   - totem_step_left
