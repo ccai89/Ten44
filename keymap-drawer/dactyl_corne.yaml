@@ -90,9 +90,9 @@ layers:
   - F9
   - F12
   - ^
+  - '%'
   - '&'
-  - '*'
-  - _
+  - \
   - PLAY PAUSE
   - MUTE
   - F4
@@ -113,7 +113,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
