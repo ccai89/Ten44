@@ -22,8 +22,17 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <LWR RSE>;
-            then-layer = <ADJ>;
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        fusion_layer {
+            bindings = <&to 4>;
+            key-positions = <0 1 2 3>;
         };
     };
 
@@ -33,10 +42,10 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-  &kp Q           &kp W         &kp F           &kp P             &kp B               &kp J                    &kp L              &kp U          &kp Y         &kp SQT
-  &mt LEFT_ALT A  &mt LCTRL R   &kp S           &mt LEFT_SHIFT T  &kp G               &kp M                    &mt RIGHT_SHIFT N  &kp E          &mt RCTRL I   &mt RIGHT_ALT O
-  &kp Z           &kp X         &kp C           &kp D             &kp V               &kp K                    &kp H              &kp COMMA      &kp DOT       &kp SLASH
-                  &lt 3 C_PLAY  &lt RSE ESCAPE  &lt 1 ENTER       &mt LEFT_GUI TAB    &mt RIGHT_GUI BACKSPACE  &lt 1 SPACE        &lt RSE ENTER  &lt 3 C_MUTE
+  &kp Q           &kp W         &kp F         &kp P             &kp B               &kp J                    &kp L              &kp U        &kp Y         &kp SQT
+  &mt LEFT_ALT A  &mt LCTRL R   &kp S         &mt LEFT_SHIFT T  &kp G               &kp M                    &mt RIGHT_SHIFT N  &kp E        &mt RCTRL I   &mt RIGHT_ALT O
+  &kp Z           &kp X         &kp C         &kp D             &kp V               &kp K                    &kp H              &kp COMMA    &kp DOT       &kp SLASH
+                  &lt 3 C_PLAY  &lt 2 ESCAPE  &lt 1 ENTER       &mt LEFT_GUI TAB    &mt RIGHT_GUI BACKSPACE  &lt 1 SPACE        &lt 2 ENTER  &lt 3 C_MUTE
             >;
         };
 
@@ -70,10 +79,13 @@
             >;
         };
 
-        extra1 { status = "reserved"; };
-
-        extra2 { status = "reserved"; };
-
-        extra3 { status = "reserved"; };
+        fusion {
+            bindings = <
+  &trans  &trans  &trans  &kp T   &kp P        &trans  &trans  &trans  &trans  &trans
+  &kp A   &kp L   &kp R   &kp C   &kp LSHFT    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans
+          &trans  &trans  &to 1   &trans       &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
