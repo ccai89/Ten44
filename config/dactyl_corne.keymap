@@ -53,10 +53,10 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp C_NEXT          &kp C_VOL_UP  &kp F7  &kp F8  &kp F9  &kp F12
-  &kp CARET        &kp AMPERSAND  &kp ASTERISK          &kp UNDERSCORE         &kp K_PLAY_PAUSE    &kp C_MUTE    &kp F4  &kp F5  &kp F6  &kp F11
-  &kp GRAVE        &kp LC(UP)     &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &kp K_PREVIOUS      &kp C_VOL_DN  &kp F1  &kp F2  &kp F3  &kp F10
-                   &trans         &trans                &trans                 &trans              &trans        &trans  &trans  &trans
+  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH              &kp DOLLAR             &kp C_NEXT          &kp C_VOL_UP   &kp F7  &kp F8  &kp F9  &kp F12
+  &kp CARET        &kp PERCENT  &kp AMPERSAND         &kp BACKSLASH          &kp K_PLAY_PAUSE    &kp C_MUTE     &kp F4  &kp F5  &kp F6  &kp F11
+  &kp GRAVE        &kp LC(UP)   &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &kp K_PREVIOUS      &kp C_VOL_DN   &kp F1  &kp F2  &kp F3  &kp F10
+                   &trans       &trans                &trans                 &trans              &kp RIGHT_GUI  &trans  &trans  &trans
             >;
         };
 
