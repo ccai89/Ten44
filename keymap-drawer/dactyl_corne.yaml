@@ -14,14 +14,14 @@ layers:
   - A
   - R
   - S
-  - T
+  - {t: T, h: LEFT SHIFT}
   - G
   - M
   - {t: N, h: RIGHT ALT}
   - {t: E, h: RCTRL}
   - I
   - O
-  - {t: Z, h: ADJ}
+  - Z
   - X
   - C
   - D
@@ -30,26 +30,26 @@ layers:
   - H
   - ','
   - .
-  - {t: /, h: ADJ}
-  - {t: ▽, type: trans}
+  - /
+  - {t: PLAY, h: ADJ}
   - {t: ESCAPE, h: NUM}
   - {t: ENTER, h: SYM}
   - {t: TAB, h: LEFT GUI}
-  - {t: BACKSPACE, h: SYM}
-  - {t: SPACE, h: RSHFT}
+  - {t: BACKSPACE, h: RIGHT GUI}
+  - {t: SPACE, h: SYM}
   - {t: ENTER, h: NUM}
-  - {t: ▽, type: trans}
+  - {t: MUTE, h: ADJ}
   SYM:
-  - '`'
+  - +
   - HOME
   - UP
   - PAGE UP
   - '{'
-  - )
+  - '}'
   - KP 7
   - KP 8
   - KP 9
-  - +
+  - ''''
   - _
   - LEFT
   - DOWN
@@ -75,7 +75,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - KP 0
   - {t: ▽, type: trans}
   NUM:
@@ -138,17 +138,17 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
