@@ -11,16 +11,16 @@ layers:
   - U
   - Y
   - ''''
-  - A
-  - R
+  - {t: A, h: LEFT ALT}
+  - {t: R, h: LCTRL}
   - S
   - {t: T, h: LEFT SHIFT}
   - G
   - M
-  - {t: N, h: RIGHT ALT}
-  - {t: E, h: RCTRL}
-  - I
-  - O
+  - {t: N, h: RIGHT SHIFT}
+  - E
+  - {t: I, h: RCTRL}
+  - {t: O, h: RIGHT ALT}
   - Z
   - X
   - C
