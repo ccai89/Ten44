@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define DEF 0
@@ -30,47 +29,47 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "MAIN";
+        Primary_layer {
+            display-name = "Colemak_dh";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+  &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5   &kp N6    &kp N7     &kp N8     &kp N9   &kp N0    &kp SQT
+  &kp TAB    &kp Q   &kp W   &kp F    &kp P    &kp B    &kp J     &kp L      &kp U      &kp Y    &kp LBKT  &kp RBKT
+  &kp ESC    &kp A   &kp R   &kp S    &kp T    &kp G    &kp M     &kp N      &kp E      &kp I    &kp O     &kp SEMI
+  &kp LSHFT  &kp Z   &kp X   &kp C    &kp D    &kp V    &kp K     &kp H      &kp COMMA  &kp DOT  &kp FSLH  &kp BSPC
+                             &kp DEL  &kp RET  &kp TAB  &kp BSPC  &kp SPACE  &kp RET
             >;
         };
 
         lower_layer {
             display-name = "L1";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+  &trans  &trans     &trans    &trans    &trans     &trans     &trans  &kp N7  &kp N8   &kp N9   &trans  &trans
+  &trans  &trans     &kp HOME  &kp UP    &kp END    &trans     &trans  &kp N4  &kp N5   &kp N6   &trans  &trans
+  &trans  &kp PG_UP  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans  &kp N1  &kp N2   &kp N3   &trans  &trans
+  &trans  &trans     &trans    &trans    &trans     &trans     &trans  &kp N0  &kp DOT  &kp RET  &trans  &trans
+                               &trans    &trans     &trans     &trans  &trans  &trans
             >;
         };
 
         raise_layer {
             display-name = "L2";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         adjust_layer {
             display-name = "L3";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
