@@ -1,6 +1,6 @@
-# Dactyl Corne Keyboard
+# Cygnus Keyboard
 
-![Dactyl Corne Keyboard](images/Dactyl Corne.jpg)
+![Cygnus Keyboard](images/Cygnus.jpg)
 ![Thickness](images/Thickness.jpg)
 ---
 

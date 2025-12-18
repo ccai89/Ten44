@@ -1,4 +1,4 @@
-name: zmk-keyboard-dactyl_corne
+name: zmk-keyboard-cygnus
 build:
   settings:
     board_root: .

@@ -1,14 +1,14 @@
-if SHIELD_DACTYL_CORNE_LEFT
+if SHIELD_CYGNUS_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Dactyl Corne"
+    default "Cygnus_4x6"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_DACTYL_CORNE_LEFT || SHIELD_DACTYL_CORNE_RIGHT
+if SHIELD_CYGNUS_LEFT || SHIELD_CYGNUS_RIGHT
 
 config ZMK_SPLIT
     default y
