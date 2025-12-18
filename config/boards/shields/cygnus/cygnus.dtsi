@@ -43,26 +43,14 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)    RC(3,6) RC(3,7) RC(3,8) RC(3,
             ;
     };
 
-    default_layout: default_layout {
+  default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
         
         transform = <&default_transform>;
         kscan = <&kscan0>;
         
-        // Corrected the DTS syntax: used '=' only once, then ',' for continuation.
-        keys
-#include <physical_layouts.dtsi>
-
-/ {
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default";
-
-        kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
-
-        keys  //                     w   h    x    y     rot    rx    ry
+        keys            w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0     0>
             , <&key_physical_attrs 100 100  100   37       0     0     0>
             , <&key_physical_attrs 100 100  200   12       0     0     0>
