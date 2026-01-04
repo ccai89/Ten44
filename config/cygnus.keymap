@@ -36,7 +36,7 @@
   &kp GRAVE         &kp N1            &kp N2      &kp N3     &kp N4       &kp N5            &kp N6           &kp N7       &kp N8     &kp N9             &kp N0      &kp SQT
   &kp TAB           &kp Q             &kp W       &kp F      &kp P        &kp B             &kp J            &kp L        &kp U      &kp Y              &kp LBKT    &kp RBKT
   &mt LSHIFT ESC    &kp A             &kp R       &kp S      &kp T        &kp G             &kp M            &kp N        &kp E      &kp I              &kp O       &mt RIGHT_SHIFT SEMICOLON
-  &mt LSHFT ESCAPE  &kp Z             &kp X       &kp C      &kp D        &kp V             &kp K            &kp H        &kp COMMA  &kp DOT            &kp FSLH    &mt RIGHT_SHIFT NON_US_BACKSLASH
+  &mt LSHFT ESCAPE  &kp Z             &kp X       &kp C      &kp D        &kp V             &kp K            &kp H        &kp COMMA  &kp DOT            &kp FSLH    &mt RIGHT_SHIFT BACKSPACE
   &kp C_PREV        &kp C_PLAY_PAUSE  &kp C_NEXT  &lt 2 DEL  &lt 1 ENTER  &mt LEFT_GUI TAB  &lt 2 BACKSPACE  &lt 1 SPACE  &kp RET    &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOL_UP
             >;
         };
@@ -44,22 +44,22 @@
         lower_layer {
             display-name = "Num_Nav";
             bindings = <
-  &bt BT_SEL 0    &trans  &trans    &trans    &trans         &trans  &trans  &kp N7  &kp N8   &kp N9   &trans  &trans
-  &bt BT_NXT      &trans  &kp HOME  &kp UP    &kp PAGE_UP    &trans  &trans  &kp N4  &kp N5   &kp N6   &trans  &trans
-  &bt BT_PRV      &trans  &kp LEFT  &kp DOWN  &kp RIGHT      &trans  &trans  &kp N1  &kp N2   &kp N3   &trans  &trans
-  &studio_unlock  &trans  &kp END   &trans    &kp PAGE_DOWN  &trans  &trans  &kp N0  &kp DOT  &kp RET  &trans  &trans
-  &trans          &trans  &trans    &trans    &trans         &trans  &trans  &trans  &trans   &trans   &trans  &trans
+  &bt BT_SEL 0    &bt BT_SEL 1   &kp LG(LC(LS(LEFT)))  &trans    &kp LS(LG(LC(RIGHT)))  &trans  &trans  &kp N7  &kp N8   &kp N9   &trans  &trans
+  &bt BT_NXT      &bt BT_SEL 2   &kp HOME              &kp UP    &kp PAGE_UP            &trans  &trans  &kp N4  &kp N5   &kp N6   &trans  &trans
+  &bt BT_PRV      &bt BT_SEL 3   &kp LEFT              &kp DOWN  &kp RIGHT              &trans  &trans  &kp N1  &kp N2   &kp N3   &trans  &trans
+  &studio_unlock  &bt BT_SEL 4   &kp END               &trans    &kp PAGE_DOWN          &trans  &trans  &kp N0  &kp DOT  &kp RET  &trans  &trans
+  &kp LG(TAB)     &kp LG(GRAVE)  &kp LG(LS(TAB))       &trans    &trans                 &trans  &trans  &trans  &trans   &trans   &trans  &trans
             >;
         };
 
         raise_layer {
             display-name = "Symbols";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
             >;
         };
 
