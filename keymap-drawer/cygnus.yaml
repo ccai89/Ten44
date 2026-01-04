@@ -49,20 +49,20 @@ layers:
   - .
   - /
   - {t: \, h: RIGHT SHIFT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DEL
-  - {t: ENTER, h: L1}
-  - {t: LEFT GUI, h: L2}
-  - {t: BACKSPACE, h: L2}
-  - {t: SPACE, h: L1}
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - {t: DEL, h: Symbols}
+  - {t: ENTER, h: Num_Nav}
+  - {t: TAB, h: LEFT GUI}
+  - {t: BACKSPACE, h: Symbols}
+  - {t: SPACE, h: Num_Nav}
   - RET
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  L1:
-  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - MUTE
+  - VOL UP
+  Num_Nav:
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT NXT
   - {t: ▽, type: trans}
   - HOME
   - UP
@@ -86,7 +86,7 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT PRV
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -98,7 +98,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - END
   - {t: ▽, type: trans}
@@ -122,9 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  L2:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  Symbols:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,6 +175,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -235,9 +235,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
