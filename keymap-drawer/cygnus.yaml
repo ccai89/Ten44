@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: RIGHT SHIFT}
+  - {t: BACKSPACE, h: RIGHT SHIFT}
   - PREV
   - PLAY PAUSE
   - NEXT
@@ -63,10 +63,10 @@ layers:
   - VOL UP
   Num_Nav:
   - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - Gui+Ctl+Sft+LEFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT NXT
-  - {t: ▽, type: trans}
+  - {t: BT, h: '2'}
   - HOME
   - UP
   - PAGE UP
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT PRV
-  - {t: ▽, type: trans}
+  - {t: BT, h: '3'}
   - LEFT
   - DOWN
   - RIGHT
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
   - END
   - {t: ▽, type: trans}
   - PAGE DOWN
@@ -110,9 +110,9 @@ layers:
   - RET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+TAB
+  - Gui+`
+  - Gui+Sft+TAB
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -123,18 +123,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbols:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
