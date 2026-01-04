@@ -32,16 +32,16 @@
         Primary_layer {
             display-name = "Colemak_dh";
             bindings = <
-  &kp GRAVE         &kp N1  &kp N2  &kp N3   &kp N4       &kp N5          &kp N6           &kp N7       &kp N8     &kp N9   &kp N0    &kp SQT
-  &kp TAB           &kp Q   &kp W   &kp F    &kp P        &kp B           &kp J            &kp L        &kp U      &kp Y    &kp LBKT  &kp RBKT
-  &mt LSHIFT ESC    &kp A   &kp R   &kp S    &kp T        &kp G           &kp M            &kp N        &kp E      &kp I    &kp O     &mt RIGHT_SHIFT SEMICOLON
-  &mt LSHFT ESCAPE  &kp Z   &kp X   &kp C    &kp D        &kp V           &kp K            &kp H        &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT NON_US_BACKSLASH
-  &trans            &trans  &trans  &kp DEL  &lt 1 ENTER  &lt 2 LEFT_GUI  &lt 2 BACKSPACE  &lt 1 SPACE  &kp RET    &trans   &trans    &trans
+  &kp GRAVE         &kp N1            &kp N2      &kp N3           &kp N4       &kp N5            &kp N6           &kp N7       &kp N8     &kp N9             &kp N0      &kp SQT
+  &kp TAB           &kp Q             &kp W       &kp F            &kp P        &kp B             &kp J            &kp L        &kp U      &kp Y              &kp LBKT    &kp RBKT
+  &mt LSHIFT ESC    &kp A             &kp R       &kp S            &kp T        &kp G             &kp M            &kp N        &kp E      &kp I              &kp O       &mt RIGHT_SHIFT SEMICOLON
+  &mt LSHFT ESCAPE  &kp Z             &kp X       &kp C            &kp D        &kp V             &kp K            &kp H        &kp COMMA  &kp DOT            &kp FSLH    &mt RIGHT_SHIFT NON_US_BACKSLASH
+  &kp K_PREV        &kp K_PLAY_PAUSE  &kp K_NEXT  &lt (2) LG(ESC)  &lt 1 ENTER  &mt LEFT_GUI TAB  &lt 2 BACKSPACE  &lt 1 SPACE  &kp RET    &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOL_UP
             >;
         };
 
         lower_layer {
-            display-name = "L1";
+            display-name = "Num_Nav";
             bindings = <
   &trans  &trans  &trans    &trans    &trans         &trans  &trans  &kp N7  &kp N8   &kp N9   &trans  &trans
   &trans  &trans  &kp HOME  &kp UP    &kp PAGE_UP    &trans  &trans  &kp N4  &kp N5   &kp N6   &trans  &trans
@@ -52,7 +52,7 @@
         };
 
         raise_layer {
-            display-name = "L2";
+            display-name = "Symbols";
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
