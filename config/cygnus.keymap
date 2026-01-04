@@ -36,7 +36,7 @@
   &kp TAB           &kp Q   &kp W   &kp F    &kp P        &kp B           &kp J            &kp L        &kp U      &kp Y    &kp LBKT  &kp RBKT
   &mt LSHIFT ESC    &kp A   &kp R   &kp S    &kp T        &kp G           &kp M            &kp N        &kp E      &kp I    &kp O     &mt RIGHT_SHIFT SEMICOLON
   &mt LSHFT ESCAPE  &kp Z   &kp X   &kp C    &kp D        &kp V           &kp K            &kp H        &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT NON_US_BACKSLASH
-                                    &kp DEL  &lt 1 ENTER  &lt 2 LEFT_GUI  &lt 2 BACKSPACE  &lt 1 SPACE  &kp RET
+  &trans            &trans  &trans  &kp DEL  &lt 1 ENTER  &lt 2 LEFT_GUI  &lt 2 BACKSPACE  &lt 1 SPACE  &kp RET    &trans   &trans    &trans
             >;
         };
 
@@ -47,7 +47,7 @@
   &trans  &trans  &kp HOME  &kp UP    &kp PAGE_UP    &trans  &trans  &kp N4  &kp N5   &kp N6   &trans  &trans
   &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT      &trans  &trans  &kp N1  &kp N2   &kp N3   &trans  &trans
   &trans  &trans  &kp END   &trans    &kp PAGE_DOWN  &trans  &trans  &kp N0  &kp DOT  &kp RET  &trans  &trans
-                            &trans    &trans         &trans  &trans  &trans  &trans
+  &trans  &trans  &trans    &trans    &trans         &trans  &trans  &trans  &trans   &trans   &trans  &trans
             >;
         };
 
@@ -58,7 +58,7 @@
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -69,7 +69,7 @@
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
