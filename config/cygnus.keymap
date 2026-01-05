@@ -44,11 +44,11 @@
         lower_layer {
             display-name = "Num_Nav";
             bindings = <
-  &bt BT_SEL 0    &bt BT_SEL 1   &kp LG(LC(LS(LEFT)))  &trans    &kp LS(LG(LC(RIGHT)))  &trans  &trans  &kp N7  &kp N8   &kp N9   &trans  &trans
-  &bt BT_NXT      &bt BT_SEL 2   &kp HOME              &kp UP    &kp PAGE_UP            &trans  &trans  &kp N4  &kp N5   &kp N6   &trans  &trans
-  &bt BT_PRV      &bt BT_SEL 3   &kp LEFT              &kp DOWN  &kp RIGHT              &trans  &trans  &kp N1  &kp N2   &kp N3   &trans  &trans
-  &studio_unlock  &bt BT_SEL 4   &kp END               &trans    &kp PAGE_DOWN          &trans  &trans  &kp N0  &kp DOT  &kp RET  &trans  &trans
-  &kp LG(TAB)     &kp LG(GRAVE)  &kp LG(LS(TAB))       &trans    &trans                 &trans  &trans  &trans  &trans   &trans   &trans  &trans
+  &bt BT_SEL 0    &bt BT_SEL 1   &kp LG(LC(LS(LEFT)))  &trans    &kp LS(LG(LC(RIGHT)))  &trans  &trans  &kp N7  &kp N8   &kp N9   &kp BACKSLASH  &trans
+  &bt BT_NXT      &bt BT_SEL 2   &kp HOME              &kp UP    &kp PAGE_UP            &trans  &trans  &kp N4  &kp N5   &kp N6   &kp MINUS      &kp UNDERSCORE
+  &bt BT_PRV      &bt BT_SEL 3   &kp LEFT              &kp DOWN  &kp RIGHT              &trans  &trans  &kp N1  &kp N2   &kp N3   &kp PLUS       &kp LS(ASTERISK)
+  &studio_unlock  &bt BT_SEL 4   &kp END               &trans    &kp PAGE_DOWN          &trans  &trans  &kp N0  &kp DOT  &kp RET  &kp EQUAL      &trans
+  &kp LG(TAB)     &kp LG(GRAVE)  &kp LG(LS(TAB))       &trans    &trans                 &trans  &trans  &trans  &trans   &trans   &trans         &trans
             >;
         };
 
