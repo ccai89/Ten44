@@ -72,7 +72,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - BT NXT
   - {t: BT, h: '2'}
@@ -84,8 +84,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - _
   - BT PRV
   - {t: BT, h: '3'}
   - LEFT
@@ -96,8 +96,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
+  - Sft+*
   - '&studio_unlock'
   - {t: BT, h: '4'}
   - END
@@ -108,7 +108,7 @@ layers:
   - '0'
   - .
   - RET
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - Gui+TAB
   - Gui+`
